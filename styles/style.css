@@ -65,6 +65,9 @@ hr {
 
 .blogs {
     display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 200px repeat(2, 1fr); */
+    /* grid-template-columns: repeat(2, 200px)1fr; */
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 26px;
 }
