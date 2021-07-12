@@ -116,7 +116,6 @@ hr {
 
 /* ----- Top Blogs ----- */
 
-.top-blog {}
 
 .top-blog-title {
     font-size: 34px;
@@ -142,8 +141,6 @@ hr {
     padding-left: 20px;
 }
 
-.blog-info h3 {}
-
 .blog .blog-info h4 {
     color: #b4b3b3;
     font-weight: 400px;
@@ -157,7 +154,6 @@ hr {
 
 /* ----- Latest Courses ----- */
 
-.latest-course {}
 
 .latest-course h2 {
     font-size: 34px;
@@ -174,7 +170,7 @@ hr {
     width: 250px;
     padding: 15px;
     margin: 0 10px;
-    box-shadow: 10px 10px 40px rgb(246, 246, 246);
+    box-shadow: 10px 10px 40px rgb(241, 241, 241);
     border-radius: 10px;
 }
 
@@ -193,8 +189,6 @@ hr {
     color: rgb(212, 80, 80);
 }
 
-.course .course-details h4 a {}
-
 .course .course-details .course-info {
     display: flex;
     align-items: center;
@@ -207,7 +201,7 @@ hr {
 
 .course .course-details .course-info .blanked {
     font-size: 12px;
-    color: #cacacc
+    color: #aeaeae;
 }
 
 .course .course-details .course-info .score {
@@ -215,7 +209,7 @@ hr {
     margin: 0 15px;
 }
 
-.course .course-details .course-info .clock {
+.course .course-details .course-info .course-duration {
     display: flex;
     align-items: center;
     padding: 3px 10px;
@@ -223,7 +217,7 @@ hr {
     border-radius: 30px;
 }
 
-.course .course-details .course-info .clock .fa-clock {
+.course .course-details .course-info .course-duration .fa-clock {
     padding-right: 10px;
     color: rgb(179, 21, 21);
 }
